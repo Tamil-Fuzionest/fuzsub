@@ -12,7 +12,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "FuzSub",
-         url: "https://github.com/Tamil-Fuzionest/subscription_sdk/releases/download/v0.0.3/FuzSub.xcframework.zip",
+         url: "https://github.com/Tamil-Fuzionest/fuzsub_sdk/releases/download/0.0.1/FuzSub.xcframework.zip",
          checksum:"7bd5290662c61888d9cf5071245e24bc4b186fb5378a5357bf2067bfba1d91a6")
    ]
 )

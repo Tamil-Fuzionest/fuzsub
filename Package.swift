@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-   name: "SubscriptionSDKKit",
+   name: "FuzSub",
    platforms: [
      .iOS(.v14),
    ],
    products: [
-      .library(name: "SubscriptionSDKKit", targets: ["SubscriptionSDKKit"])
+      .library(name: "FuzSub", targets: ["FuzSub"])
    ],
    targets: [
       .binaryTarget(
          name: "SubscriptionSDKKit",
-         url: "https://github.com/Tamil-Fuzionest/subscription_sdk/releases/download/v0.0.1/SubscriptionSDKKit.xcframework.zip",
-         checksum:"bcb78b89a1c7d86b1b4bd7c00a270d72725bd86ba945e36901794660d934e3e9")
+         url: "https://github.com/Tamil-Fuzionest/subscription_sdk/releases/download/v0.0.1/FuzSub.xcframework.zip",
+         checksum:"3d2ea7aa69c3f52cc163ff2154b808b1cb6ce5a0014ff30445ca0ae4202c5e83")
    ]
 )
 

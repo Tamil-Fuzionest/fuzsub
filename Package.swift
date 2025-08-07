@@ -12,8 +12,8 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "SubscriptionSDKKit",
-         url: "https://github.com/Tamil-Fuzionest/subscription_sdk/releases/download/package/SubscriptionSDKKit.xcframework.zip",
-         checksum:"ebd4292ca4481d1d2459ca2b738b30c33b2b5988fff5d9d627615a70bac58e46")
+         url: "https://github.com/Tamil-Fuzionest/subscription_sdk/releases/download/v0.0.1/SubscriptionSDKKit.xcframework.zip",
+         checksum:"bcb78b89a1c7d86b1b4bd7c00a270d72725bd86ba945e36901794660d934e3e9")
    ]
 )
 
